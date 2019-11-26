@@ -1,0 +1,15 @@
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.person-image {
+  height: 300px;
+}
+
+.person-name {
+  font-size: 40px;
+}

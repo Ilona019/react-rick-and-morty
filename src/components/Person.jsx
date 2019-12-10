@@ -5,8 +5,8 @@ export default class Person extends React.Component {
   render() {
     return (
       <div className="person-container">
-        <img className="person-image" src="./img/game.png" alt="Example" />
-        <div className="person-name">Mr.Poopybackhole</div>
+        <img className="person-image" src={this.props.img} alt="Example" />
+        <div className="person-name">{this.props.namePerson}</div>
       </div>
     );
   }
